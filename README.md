@@ -8,8 +8,10 @@ Clicking on a mineral’s name opens a page that displays information about the 
 2. Create a virtual environment(venv) and activate.
 3. While the venv is activated execute follwoing:
     1. Install the dependencies in the requirements.txt
-    2. python manage.py migrate
-    3. python manage.py runserver
+	2. Make sure you are in the root site directory ("mineral_catalog"
+	and run the following commands:	
+        1. python manage.py migrate
+        2. python manage.py runserver
 
 4. open http://127.0.0.1:8000 & enjoy
 
